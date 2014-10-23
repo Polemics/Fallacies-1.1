@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E1E69551871F6ED004E8221 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E1E69541871F6ED004E8221 /* Images.xcassets */; };
+		5E1E695E1871FC0B004E8221 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E1E695D1871FC0B004E8221 /* Images-2.xcassets */; };
+		5E95263218F4D55D00290C29 /* Philosophies152.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E95263118F4D55D00290C29 /* Philosophies152.png */; };
+		5E95263618F4D5F700290C29 /* WebsiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E95263518F4D5F700290C29 /* WebsiteViewController.m */; };
 		FBC49B57186D46D200066623 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC49B56186D46D200066623 /* Foundation.framework */; };
 		FBC49B59186D46D200066623 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC49B58186D46D200066623 /* CoreGraphics.framework */; };
 		FBC49B5B186D46D200066623 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC49B5A186D46D200066623 /* UIKit.framework */; };
@@ -15,13 +19,33 @@
 		FBC49B67186D46D200066623 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC49B66186D46D200066623 /* AppDelegate.m */; };
 		FBC49B6A186D46D200066623 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC49B68186D46D200066623 /* Main_iPhone.storyboard */; };
 		FBC49B6D186D46D200066623 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC49B6B186D46D200066623 /* Main_iPad.storyboard */; };
-		FBC49B70186D46D200066623 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC49B6F186D46D200066623 /* ViewController.m */; };
 		FBC49B72186D46D200066623 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC49B71186D46D200066623 /* Images.xcassets */; };
 		FBC49B79186D46D200066623 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC49B78186D46D200066623 /* XCTest.framework */; };
 		FBC49B7A186D46D200066623 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC49B56186D46D200066623 /* Foundation.framework */; };
 		FBC49B7B186D46D200066623 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC49B5A186D46D200066623 /* UIKit.framework */; };
 		FBC49B83186D46D200066623 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FBC49B81186D46D200066623 /* InfoPlist.strings */; };
 		FBC49B85186D46D200066623 /* ThinkingGoneWrongTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC49B84186D46D200066623 /* ThinkingGoneWrongTests.m */; };
+		FBC49B90186D479C00066623 /* CellController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC49B8F186D479C00066623 /* CellController.m */; };
+		FBC49B93186DBF8700066623 /* MainTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC49B92186DBF8700066623 /* MainTableController.m */; };
+		FBC49B96186DBFE900066623 /* ReferenceTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC49B95186DBFE900066623 /* ReferenceTableController.m */; };
+		FBC49B99186DCAEC00066623 /* ReferenceReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC49B98186DCAEC00066623 /* ReferenceReceiver.m */; };
+		FBC49B9C186DEFB600066623 /* FlashCardController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC49B9B186DEFB600066623 /* FlashCardController.m */; };
+		FBC49B9F186E200800066623 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC49B9E186E200800066623 /* MessageUI.framework */; };
+		FBC49BA2186E2A0C00066623 /* CognitiveFlashCards.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC49BA1186E2A0C00066623 /* CognitiveFlashCards.m */; };
+		FBC49BA5186E2D7200066623 /* Quiz.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC49BA4186E2D7200066623 /* Quiz.m */; };
+		FBC49BA9186E367B00066623 /* CognitiveQuiz.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC49BA8186E367B00066623 /* CognitiveQuiz.m */; };
+		FBC49BAB186E381100066623 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC49BAA186E381100066623 /* QuartzCore.framework */; };
+		FBC49BAE186F2E3300066623 /* IntroductionController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC49BAD186F2E3300066623 /* IntroductionController.m */; };
+		FBC49BB4186F386800066623 /* hexellence_x2.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC49BB3186F386800066623 /* hexellence_x2.png */; };
+		FBC49BB6186F387800066623 /* tiny_grid_x2.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC49BB5186F387800066623 /* tiny_grid_x2.png */; };
+		FBC49BB8186F7CF100066623 /* letter300.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC49BB7186F7CF100066623 /* letter300.png */; };
+		FBC49BBA186FA3DE00066623 /* FlashCard300.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC49BB9186FA3DE00066623 /* FlashCard300.png */; };
+		FBC49BBC186FA3E500066623 /* A_Plus.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC49BBB186FA3E500066623 /* A_Plus.png */; };
+		FBC49BC11870D72F00066623 /* formal_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC49BC01870D72F00066623 /* formal_icon.png */; };
+		FBC49BC31870DD5A00066623 /* circular_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC49BC21870DD5A00066623 /* circular_icon.png */; };
+		FBC49BC51870DE4600066623 /* brain_exclamation.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC49BC41870DE4600066623 /* brain_exclamation.png */; };
+		FBC49BC71870DEBC00066623 /* brain_question.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC49BC61870DEBC00066623 /* brain_question.png */; };
+		FBC49BC91870E04800066623 /* info_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC49BC81870E04800066623 /* info_icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +59,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FBC49B53186D46D200066623 /* ThinkingGoneWrong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinkingGoneWrong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E1E69541871F6ED004E8221 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Fallacies/Images.xcassets; sourceTree = "<group>"; };
+		5E1E69561871F8F7004E8221 /* logo640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo640x960.png; sourceTree = "<group>"; };
+		5E1E69571871F914004E8221 /* logo640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo640x1136.png; sourceTree = "<group>"; };
+		5E1E69581871F980004E8221 /* logo768x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo768x1024.png; sourceTree = "<group>"; };
+		5E1E695B1871FAFB004E8221 /* logo2048x1536.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo2048x1536.png; sourceTree = "<group>"; };
+		5E1E695C1871FBCF004E8221 /* logo1536x2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1536x2048.png; sourceTree = "<group>"; };
+		5E1E695D1871FC0B004E8221 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Images-2.xcassets"; path = "Fallacies/Images-2.xcassets"; sourceTree = "<group>"; };
+		5E95263118F4D55D00290C29 /* Philosophies152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Philosophies152.png; sourceTree = "<group>"; };
+		5E95263418F4D5F700290C29 /* WebsiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebsiteViewController.h; sourceTree = "<group>"; };
+		5E95263518F4D5F700290C29 /* WebsiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebsiteViewController.m; sourceTree = "<group>"; };
+		FBC49B53186D46D200066623 /* Fallacies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fallacies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC49B56186D46D200066623 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FBC49B58186D46D200066623 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		FBC49B5A186D46D200066623 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -47,14 +81,49 @@
 		FBC49B66186D46D200066623 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FBC49B69186D46D200066623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		FBC49B6C186D46D200066623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		FBC49B6E186D46D200066623 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FBC49B6F186D46D200066623 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FBC49B71186D46D200066623 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FBC49B77186D46D200066623 /* ThinkingGoneWrongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThinkingGoneWrongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC49B78186D46D200066623 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		FBC49B80186D46D200066623 /* ThinkingGoneWrongTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThinkingGoneWrongTests-Info.plist"; sourceTree = "<group>"; };
 		FBC49B82186D46D200066623 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FBC49B84186D46D200066623 /* ThinkingGoneWrongTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThinkingGoneWrongTests.m; sourceTree = "<group>"; };
+		FBC49B8E186D479C00066623 /* CellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellController.h; sourceTree = "<group>"; };
+		FBC49B8F186D479C00066623 /* CellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellController.m; sourceTree = "<group>"; };
+		FBC49B91186DBF8700066623 /* MainTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableController.h; sourceTree = "<group>"; };
+		FBC49B92186DBF8700066623 /* MainTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableController.m; sourceTree = "<group>"; };
+		FBC49B94186DBFE900066623 /* ReferenceTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReferenceTableController.h; sourceTree = "<group>"; };
+		FBC49B95186DBFE900066623 /* ReferenceTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReferenceTableController.m; sourceTree = "<group>"; };
+		FBC49B97186DCAEC00066623 /* ReferenceReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReferenceReceiver.h; sourceTree = "<group>"; };
+		FBC49B98186DCAEC00066623 /* ReferenceReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReferenceReceiver.m; sourceTree = "<group>"; };
+		FBC49B9A186DEFB600066623 /* FlashCardController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashCardController.h; sourceTree = "<group>"; };
+		FBC49B9B186DEFB600066623 /* FlashCardController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlashCardController.m; sourceTree = "<group>"; };
+		FBC49B9E186E200800066623 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		FBC49BA0186E2A0C00066623 /* CognitiveFlashCards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CognitiveFlashCards.h; sourceTree = "<group>"; };
+		FBC49BA1186E2A0C00066623 /* CognitiveFlashCards.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CognitiveFlashCards.m; sourceTree = "<group>"; };
+		FBC49BA3186E2D7200066623 /* Quiz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quiz.h; sourceTree = "<group>"; };
+		FBC49BA4186E2D7200066623 /* Quiz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quiz.m; sourceTree = "<group>"; };
+		FBC49BA7186E367B00066623 /* CognitiveQuiz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CognitiveQuiz.h; sourceTree = "<group>"; };
+		FBC49BA8186E367B00066623 /* CognitiveQuiz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CognitiveQuiz.m; sourceTree = "<group>"; };
+		FBC49BAA186E381100066623 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FBC49BAC186F2E3300066623 /* IntroductionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroductionController.h; sourceTree = "<group>"; };
+		FBC49BAD186F2E3300066623 /* IntroductionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroductionController.m; sourceTree = "<group>"; };
+		FBC49BB3186F386800066623 /* hexellence_x2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hexellence_x2.png; sourceTree = "<group>"; };
+		FBC49BB5186F387800066623 /* tiny_grid_x2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiny_grid_x2.png; sourceTree = "<group>"; };
+		FBC49BB7186F7CF100066623 /* letter300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = letter300.png; sourceTree = "<group>"; };
+		FBC49BB9186FA3DE00066623 /* FlashCard300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FlashCard300.png; sourceTree = "<group>"; };
+		FBC49BBB186FA3E500066623 /* A_Plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A_Plus.png; sourceTree = "<group>"; };
+		FBC49BC01870D72F00066623 /* formal_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = formal_icon.png; sourceTree = "<group>"; };
+		FBC49BC21870DD5A00066623 /* circular_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circular_icon.png; sourceTree = "<group>"; };
+		FBC49BC41870DE4600066623 /* brain_exclamation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brain_exclamation.png; sourceTree = "<group>"; };
+		FBC49BC61870DEBC00066623 /* brain_question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brain_question.png; sourceTree = "<group>"; };
+		FBC49BC81870E04800066623 /* info_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_icon.png; sourceTree = "<group>"; };
+		FBC49BCE1871275F00066623 /* brain120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brain120.png; sourceTree = "<group>"; };
+		FBC49BCF1871278B00066623 /* brain80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brain80.png; sourceTree = "<group>"; };
+		FBC49BD0187127CD00066623 /* brain152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brain152.png; sourceTree = "<group>"; };
+		FBC49BD1187127F200066623 /* brain76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brain76.png; sourceTree = "<group>"; };
+		FBC49BD21871282000066623 /* brain58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brain58.png; sourceTree = "<group>"; };
+		FBC49BD31871284B00066623 /* brain40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brain40.png; sourceTree = "<group>"; };
+		FBC49BD41871286900066623 /* brain29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brain29.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +131,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBC49BAB186E381100066623 /* QuartzCore.framework in Frameworks */,
+				FBC49B9F186E200800066623 /* MessageUI.framework in Frameworks */,
 				FBC49B59186D46D200066623 /* CoreGraphics.framework in Frameworks */,
 				FBC49B5B186D46D200066623 /* UIKit.framework in Frameworks */,
 				FBC49B57186D46D200066623 /* Foundation.framework in Frameworks */,
@@ -81,9 +152,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E95263318F4D5DA00290C29 /* In App Advertisements */ = {
+			isa = PBXGroup;
+			children = (
+				5E95263418F4D5F700290C29 /* WebsiteViewController.h */,
+				5E95263518F4D5F700290C29 /* WebsiteViewController.m */,
+			);
+			name = "In App Advertisements";
+			sourceTree = "<group>";
+		};
 		FBC49B4A186D46D200066623 = {
 			isa = PBXGroup;
 			children = (
+				5E1E695D1871FC0B004E8221 /* Images-2.xcassets */,
+				5E1E695C1871FBCF004E8221 /* logo1536x2048.png */,
+				5E1E695B1871FAFB004E8221 /* logo2048x1536.png */,
+				5E1E69581871F980004E8221 /* logo768x1024.png */,
+				5E1E69571871F914004E8221 /* logo640x1136.png */,
+				5E1E69561871F8F7004E8221 /* logo640x960.png */,
+				5E1E69541871F6ED004E8221 /* Images.xcassets */,
+				FBC49BD41871286900066623 /* brain29.png */,
+				FBC49BD31871284B00066623 /* brain40.png */,
+				FBC49BD21871282000066623 /* brain58.png */,
+				FBC49BD1187127F200066623 /* brain76.png */,
+				FBC49BD0187127CD00066623 /* brain152.png */,
+				FBC49BCF1871278B00066623 /* brain80.png */,
+				FBC49BCE1871275F00066623 /* brain120.png */,
 				FBC49B5C186D46D200066623 /* ThinkingGoneWrong */,
 				FBC49B7E186D46D200066623 /* ThinkingGoneWrongTests */,
 				FBC49B55186D46D200066623 /* Frameworks */,
@@ -94,7 +188,7 @@
 		FBC49B54186D46D200066623 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FBC49B53186D46D200066623 /* ThinkingGoneWrong.app */,
+				FBC49B53186D46D200066623 /* Fallacies.app */,
 				FBC49B77186D46D200066623 /* ThinkingGoneWrongTests.xctest */,
 			);
 			name = Products;
@@ -103,6 +197,8 @@
 		FBC49B55186D46D200066623 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FBC49BAA186E381100066623 /* QuartzCore.framework */,
+				FBC49B9E186E200800066623 /* MessageUI.framework */,
 				FBC49B56186D46D200066623 /* Foundation.framework */,
 				FBC49B58186D46D200066623 /* CoreGraphics.framework */,
 				FBC49B5A186D46D200066623 /* UIKit.framework */,
@@ -114,12 +210,23 @@
 		FBC49B5C186D46D200066623 /* ThinkingGoneWrong */ = {
 			isa = PBXGroup;
 			children = (
+				5E95263318F4D5DA00290C29 /* In App Advertisements */,
 				FBC49B65186D46D200066623 /* AppDelegate.h */,
 				FBC49B66186D46D200066623 /* AppDelegate.m */,
 				FBC49B68186D46D200066623 /* Main_iPhone.storyboard */,
 				FBC49B6B186D46D200066623 /* Main_iPad.storyboard */,
-				FBC49B6E186D46D200066623 /* ViewController.h */,
-				FBC49B6F186D46D200066623 /* ViewController.m */,
+				FBC49BAC186F2E3300066623 /* IntroductionController.h */,
+				FBC49BAD186F2E3300066623 /* IntroductionController.m */,
+				FBC49B91186DBF8700066623 /* MainTableController.h */,
+				FBC49B92186DBF8700066623 /* MainTableController.m */,
+				FBC49B94186DBFE900066623 /* ReferenceTableController.h */,
+				FBC49B95186DBFE900066623 /* ReferenceTableController.m */,
+				FBC49B97186DCAEC00066623 /* ReferenceReceiver.h */,
+				FBC49B98186DCAEC00066623 /* ReferenceReceiver.m */,
+				FBC49BA6186E2D7700066623 /* Quizzes */,
+				FBC49B9D186DEFBD00066623 /* FlashCards */,
+				FBC49B8E186D479C00066623 /* CellController.h */,
+				FBC49B8F186D479C00066623 /* CellController.m */,
 				FBC49B71186D46D200066623 /* Images.xcassets */,
 				FBC49B5D186D46D200066623 /* Supporting Files */,
 			);
@@ -129,6 +236,17 @@
 		FBC49B5D186D46D200066623 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5E95263118F4D55D00290C29 /* Philosophies152.png */,
+				FBC49BC81870E04800066623 /* info_icon.png */,
+				FBC49BC61870DEBC00066623 /* brain_question.png */,
+				FBC49BC41870DE4600066623 /* brain_exclamation.png */,
+				FBC49BC21870DD5A00066623 /* circular_icon.png */,
+				FBC49BC01870D72F00066623 /* formal_icon.png */,
+				FBC49BBB186FA3E500066623 /* A_Plus.png */,
+				FBC49BB9186FA3DE00066623 /* FlashCard300.png */,
+				FBC49BB7186F7CF100066623 /* letter300.png */,
+				FBC49BB5186F387800066623 /* tiny_grid_x2.png */,
+				FBC49BB3186F386800066623 /* hexellence_x2.png */,
 				FBC49B5E186D46D200066623 /* ThinkingGoneWrong-Info.plist */,
 				FBC49B5F186D46D200066623 /* InfoPlist.strings */,
 				FBC49B62186D46D200066623 /* main.m */,
@@ -155,12 +273,34 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FBC49B9D186DEFBD00066623 /* FlashCards */ = {
+			isa = PBXGroup;
+			children = (
+				FBC49B9A186DEFB600066623 /* FlashCardController.h */,
+				FBC49B9B186DEFB600066623 /* FlashCardController.m */,
+				FBC49BA0186E2A0C00066623 /* CognitiveFlashCards.h */,
+				FBC49BA1186E2A0C00066623 /* CognitiveFlashCards.m */,
+			);
+			name = FlashCards;
+			sourceTree = "<group>";
+		};
+		FBC49BA6186E2D7700066623 /* Quizzes */ = {
+			isa = PBXGroup;
+			children = (
+				FBC49BA3186E2D7200066623 /* Quiz.h */,
+				FBC49BA4186E2D7200066623 /* Quiz.m */,
+				FBC49BA7186E367B00066623 /* CognitiveQuiz.h */,
+				FBC49BA8186E367B00066623 /* CognitiveQuiz.m */,
+			);
+			name = Quizzes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FBC49B52186D46D200066623 /* ThinkingGoneWrong */ = {
+		FBC49B52186D46D200066623 /* Fallacies */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FBC49B88186D46D200066623 /* Build configuration list for PBXNativeTarget "ThinkingGoneWrong" */;
+			buildConfigurationList = FBC49B88186D46D200066623 /* Build configuration list for PBXNativeTarget "Fallacies" */;
 			buildPhases = (
 				FBC49B4F186D46D200066623 /* Sources */,
 				FBC49B50186D46D200066623 /* Frameworks */,
@@ -170,9 +310,9 @@
 			);
 			dependencies = (
 			);
-			name = ThinkingGoneWrong;
+			name = Fallacies;
 			productName = ThinkingGoneWrong;
-			productReference = FBC49B53186D46D200066623 /* ThinkingGoneWrong.app */;
+			productReference = FBC49B53186D46D200066623 /* Fallacies.app */;
 			productType = "com.apple.product-type.application";
 		};
 		FBC49B76186D46D200066623 /* ThinkingGoneWrongTests */ = {
@@ -199,9 +339,12 @@
 		FBC49B4B186D46D200066623 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Polemics Applications";
 				TargetAttributes = {
+					FBC49B52186D46D200066623 = {
+						DevelopmentTeam = GG8YKDTKZ6;
+					};
 					FBC49B76186D46D200066623 = {
 						TestTargetID = FBC49B52186D46D200066623;
 					};
@@ -220,7 +363,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FBC49B52186D46D200066623 /* ThinkingGoneWrong */,
+				FBC49B52186D46D200066623 /* Fallacies */,
 				FBC49B76186D46D200066623 /* ThinkingGoneWrongTests */,
 			);
 		};
@@ -232,9 +375,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBC49B6D186D46D200066623 /* Main_iPad.storyboard in Resources */,
+				FBC49BBC186FA3E500066623 /* A_Plus.png in Resources */,
+				5E1E695E1871FC0B004E8221 /* Images-2.xcassets in Resources */,
+				FBC49BB6186F387800066623 /* tiny_grid_x2.png in Resources */,
 				FBC49B72186D46D200066623 /* Images.xcassets in Resources */,
 				FBC49B6A186D46D200066623 /* Main_iPhone.storyboard in Resources */,
 				FBC49B61186D46D200066623 /* InfoPlist.strings in Resources */,
+				5E95263218F4D55D00290C29 /* Philosophies152.png in Resources */,
+				5E1E69551871F6ED004E8221 /* Images.xcassets in Resources */,
+				FBC49BB4186F386800066623 /* hexellence_x2.png in Resources */,
+				FBC49BC71870DEBC00066623 /* brain_question.png in Resources */,
+				FBC49BBA186FA3DE00066623 /* FlashCard300.png in Resources */,
+				FBC49BC51870DE4600066623 /* brain_exclamation.png in Resources */,
+				FBC49BB8186F7CF100066623 /* letter300.png in Resources */,
+				FBC49BC11870D72F00066623 /* formal_icon.png in Resources */,
+				FBC49BC91870E04800066623 /* info_icon.png in Resources */,
+				FBC49BC31870DD5A00066623 /* circular_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,9 +409,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBC49B70186D46D200066623 /* ViewController.m in Sources */,
+				FBC49B99186DCAEC00066623 /* ReferenceReceiver.m in Sources */,
 				FBC49B67186D46D200066623 /* AppDelegate.m in Sources */,
+				FBC49B96186DBFE900066623 /* ReferenceTableController.m in Sources */,
+				FBC49BA2186E2A0C00066623 /* CognitiveFlashCards.m in Sources */,
+				5E95263618F4D5F700290C29 /* WebsiteViewController.m in Sources */,
+				FBC49B93186DBF8700066623 /* MainTableController.m in Sources */,
 				FBC49B63186D46D200066623 /* main.m in Sources */,
+				FBC49B90186D479C00066623 /* CellController.m in Sources */,
+				FBC49BA9186E367B00066623 /* CognitiveQuiz.m in Sources */,
+				FBC49BA5186E2D7200066623 /* Quiz.m in Sources */,
+				FBC49B9C186DEFB600066623 /* FlashCardController.m in Sources */,
+				FBC49BAE186F2E3300066623 /* IntroductionController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +437,7 @@
 /* Begin PBXTargetDependency section */
 		FBC49B7D186D46D200066623 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FBC49B52186D46D200066623 /* ThinkingGoneWrong */;
+			target = FBC49B52186D46D200066623 /* Fallacies */;
 			targetProxy = FBC49B7C186D46D200066623 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -317,7 +482,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -357,7 +521,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -392,10 +555,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ThinkingGoneWrong/ThinkingGoneWrong-Prefix.pch";
 				INFOPLIST_FILE = "ThinkingGoneWrong/ThinkingGoneWrong-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -405,10 +571,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ThinkingGoneWrong/ThinkingGoneWrong-Prefix.pch";
 				INFOPLIST_FILE = "ThinkingGoneWrong/ThinkingGoneWrong-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -416,7 +585,6 @@
 		FBC49B8C186D46D200066623 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ThinkingGoneWrong.app/ThinkingGoneWrong";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -439,7 +607,6 @@
 		FBC49B8D186D46D200066623 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ThinkingGoneWrong.app/ThinkingGoneWrong";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -467,13 +634,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FBC49B88186D46D200066623 /* Build configuration list for PBXNativeTarget "ThinkingGoneWrong" */ = {
+		FBC49B88186D46D200066623 /* Build configuration list for PBXNativeTarget "Fallacies" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FBC49B89186D46D200066623 /* Debug */,
 				FBC49B8A186D46D200066623 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBC49B8B186D46D200066623 /* Build configuration list for PBXNativeTarget "ThinkingGoneWrongTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +650,7 @@
 				FBC49B8D186D46D200066623 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainTableController.h
 //  ThinkingGoneWrong
 //
 //  Created by Kevin Akers on 12/27/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MainTableController : UITableViewController
 
 @end
